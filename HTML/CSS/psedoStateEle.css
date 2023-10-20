@@ -1,0 +1,107 @@
+.btn{
+    color: aquamarine;
+    background-color: darkgreen;
+    width: 190px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*pseudo state--> selector/element :pseudo state{prperty:value}*/
+
+button.btn:hover{
+    background-color: yellow;
+    color: brown;
+    cursor: pointer;
+}
+
+.submit.btn{
+    color: bisque;
+    background-color: hsl(271, 76%, 53%);
+    width: 190px;
+    border-radius: 30px;
+    padding: 21px 21px;
+    font-size: 20px;
+    text-align: center;
+}
+div.main div button.submit-btn:hover{
+    background-color: hsl(34, 57%, 70%);
+    color: darkgreen;
+    cursor: pointer;
+}
+
+div div .container div.container1 button:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+input.input-box1:focus{
+    background-color: aquamarine;
+
+}
+
+input.input-box2:focus{
+    background-color: aqua;
+}
+
+
+
+
+a:link{
+    color: aqua;
+}
+
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color: rgb(42, 165, 95);
+}
+
+p::first-line{
+    color: rgb(105, 34, 34);
+    font-size: 30px;
+    font-family: 'Courier New';
+}
+h2::first-letter{
+    font-size: 30px;
+    color: blue;
+    
+}
+
+
+pre::marker{
+    color: aquamarine;
+}
+
+div::selection{
+    background-color: blue;
+    color: chartreuse;
+}
+
+    input[type='password']{
+        background-color: aqua;
+        width: 300px;
+    }
+
+    .inp-state{
+        background-color: aqua;
+        width: 350px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+/*universal selector*/
+
+*{
+    background-color: aqua;
+    height: 30px;
+    background-image: url('6746701.jpg');
+}
+

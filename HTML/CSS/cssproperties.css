@@ -1,0 +1,64 @@
+/*table{
+    border:2px solid green ;
+}
+th{
+border: solid green;
+}
+
+td{
+    border: solid green;
+    }*/
+
+    /*table,th,td{
+        border: 2px solid green;
+        border-collapse: collapse;
+        padding: 10px 10px;
+        margin: auto;
+        margin-top:60px;
+        text-align: center;
+
+    }
+
+    th{
+        font-size: 30px;
+        background-color: aqua;
+        font-family: 'Courier New';
+    }
+    td{
+        background-color: aquamarine;
+        font-size: 20px;
+        font-family: 'Courier New';
+    }
+    
+    h1{
+        margin: auto;
+        color: brown;
+        text-align: center;
+    }*/
+
+
+    .table-main{
+        border: 2px solid green;
+        border-collapse: collapse;
+        padding: 10px 10px;
+        margin: auto;
+        margin-top:60px;
+  
+    }
+
+    .table-heading{
+
+        font-size: 30px;
+        background-color: aqua;
+        font-family: 'Courier New';
+    }
+    .table-data{
+        background-color: aquamarine;
+        font-size: 20px;
+        font-family: 'Courier New';
+    }
+    .table-heading{
+        margin: auto;
+        color: brown;
+        text-align: center;
+    }

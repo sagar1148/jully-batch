@@ -1,0 +1,59 @@
+.position-static{
+   border: 1px solid blueviolet;
+   height: 200px;
+   width: 200px;
+   background-color: aqua;
+   position: static; /*default : u write it here or not its  default*/
+top: 50px; /*it should be disable in case of static position value*/
+
+
+}
+
+.position-relative{
+    border: 1px solid blueviolet;
+   height: 200px;
+   width: 200px;
+   background-color: brown; 
+   position: relative;
+   top: 10px;
+   left: 25px;
+   
+}
+
+.position-absolute{
+    border: 1px solid blueviolet;
+   height: 200px;
+   width: 200px;
+   background-color: brown; 
+   position: absolute;
+   top: 50px;
+  
+  
+}
+
+.position-fixed{
+    border: 1px solid blueviolet;
+   height: 40;
+   width: 1200px;
+   background-color: brown; 
+   position: fixed;
+   bottom: 10px;
+  
+  
+}
+
+.position-stricky{
+    border: 1px solid blueviolet;
+   height: 40;
+   width: 25x;
+   background-color: rgb(106, 60, 60);
+   position: sticky;
+   top: 0px;
+  
+  
+}
+
+.main-container{
+   
+   height: 1600px;
+}

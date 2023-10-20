@@ -1,0 +1,88 @@
+.anchor-css{
+    text-decoration:none ;
+    float: left;
+}
+.navbar{
+    overflow: hidden;
+    background-color: aqua;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 7px 7px;
+}
+
+/*the dropdown container*/
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropbtn{
+    font-size: 20px;
+    border: black;
+    outline: none;
+    color:orchid;
+    padding: 7px 7px;
+    background-color: inherit;
+ 
+}
+
+
+.dropdown-a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    float: none;
+
+}
+
+.dropdown-content{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px hsl(0, 100%, 50%);
+    z-index: 1;
+
+}
+
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+
+.navbar a:hover{
+    background-color: aquamarine;
+}
+
+
+.icon-css{
+   color: aqua;
+   font-size: 20px; 
+}
+
+.page-heading{
+    height: 40px;
+    background-color: brown;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.parent-container{
+    height: 800px;
+    width: 1250;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
